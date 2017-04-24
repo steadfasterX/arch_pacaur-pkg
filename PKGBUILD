@@ -9,7 +9,7 @@ depends=('cower' 'expac' 'sudo' 'git')
 makedepends=('perl')
 backup=('etc/xdg/pacaur/config')
 source=("https://github.com/steadfasterX/$pkgname/archive/$pkgver.tar.gz")
-md5sums=('3db674e0c9224dee058ec040be2409a5')
+md5sums=('9dc63349b5897eeeb6b73ef07a15b1e9')
 
 build() {
     cd "arch_$pkgname-$pkgver"
