@@ -12,7 +12,7 @@ source=("https://github.com/steadfasterX/$pkgname/archive/$pkgver.tar.gz")
 md5sums=('3db674e0c9224dee058ec040be2409a5')
 
 build() {
-    cd "$pkgname-$pkgver"
+    cd "arch_$pkgname-$pkgver"
     pod2man --utf8 --section=8 --center="Pacaur Manual" --name="PACAUR"\
         --release="$pkgname $pkgver" ./README.pod > ./pacaur.8
 }
