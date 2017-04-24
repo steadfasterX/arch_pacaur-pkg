@@ -18,7 +18,7 @@ build() {
 }
 
 package() {
-    cd "$pkgname-$pkgver"
+    cd "arch_$pkgname-$pkgver"
 
     mkdir -p "$pkgdir/etc/xdg/pacaur"
     install -D -m644 ./config "$pkgdir/etc/xdg/pacaur/config"
