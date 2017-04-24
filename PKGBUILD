@@ -1,5 +1,5 @@
 pkgname=pacaur
-pkgver=4.9.99
+pkgver=9.9.9
 pkgrel=1
 pkgdesc="An AUR helper that minimizes user interaction"
 arch=('any')
